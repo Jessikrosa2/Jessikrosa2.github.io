@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#first-paragraph {
+    color: red;
+    background-color: yellow;
+}
+
+#second-paragraph {
+    color: blue;
+    background-color: red;
+}
+
+#third-paragraph {
+    color: green;
+    background-color: pink;
+}
+
+#span-1 {
+    color: purple;
+    background-color: lightcoral;
+}
+
+#span-2 {
+    color: rgb(127, 101, 52);
+    background-color: brown;
+}
+
+#span-3 {
+    color: beige;
+    background-color: lawngreen;
+}
+
+#span-4 {
+    color: teal;
+    background-color: peachpuff;
+}
+
+#span-5 {
+    color: navy;
+    background-color: lightseagreen;
+}
+
+#span-6 {
+    color: crimson;
+    background-color: aqua;
+}
+   

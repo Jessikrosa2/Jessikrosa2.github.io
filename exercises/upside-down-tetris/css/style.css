@@ -24,23 +24,22 @@ body {
 
 .red {
     background-color: red;
-    border: 10px solid black;
+    border: 5px solid black;
     /* red = square with thick black border */
 }
 
 .green {
     background-color: green;
-    border: 10px dashed white;
+    border: 5px dashed white;
     
 }
 
 .blue {
     background-color: blue;
-    border: 10px double yellow;
+    border: 8px double yellow;
 }
 
 .yellow {
     background-color: yellow;
-    border: 10px dotted brown;
+    border: 6px dotted brown;
 }
-

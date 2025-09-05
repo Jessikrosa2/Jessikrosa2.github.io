@@ -16,6 +16,7 @@
     height: 200px;
     box-sizing: border-box;
     min-height: 200px;
+    box-shadow: 3px 3px 5px 1px;
 }
 
 .post-it-image {

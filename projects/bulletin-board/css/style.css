@@ -14,6 +14,8 @@
     margin: 24px;
     padding: 24px;
     height: 200px;
+    box-sizing: border-box;
+    min-height: 200px;
 }
 
 .post-it-image {
@@ -43,4 +45,16 @@
 
 .yellow {
     background-color: yellowgreen;
+}
+
+.post-it p {
+    margin: 6px 0;
+}
+
+.post-it ul {
+    margin: 6px 0 0 18px;
+}
+
+.post-it h2 {
+    margin: 0 0 8px;
 }

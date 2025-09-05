@@ -48,6 +48,10 @@
     background-color: yellowgreen;
 }
 
+.red {
+    background-color: red;
+}
+
 .post-it p {
     margin: 6px 0;
 }

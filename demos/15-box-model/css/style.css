@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+div {
+    margin-right: 36px;
+    margin-top: 24px;
+    margin-right: 48px;
+    margin-bottom: 100px;
+    width: 250px;
+    border: 10px solid palevioletred; 
+    text-align: center;
+    border-style: dashed;
+    background-color: bisque;
+    padding-left: 24px;
+
+    border-radius: 24;
+}
+
+h1 {
+    border-bottom: 2px solid black;
+}
+
+img {
+    border-radius: 100%;
+}
+
+#demo-div {
+    margin: 0;
+    padding: 0;
+    border-radius: 25%;
+    border: 1px solid goldenrod;
+    background-color: peachpuff;
+}

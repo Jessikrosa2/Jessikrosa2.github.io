@@ -38,7 +38,29 @@ body {
     margin-bottom: 16px;
 }
 
-#sidebar li {
-    margin: 6px 0;
-    padding-left: 6px;
+#sidebar ul li {
+    margin-bottom: 10px;
+    margin-top: 10PX;
+}
+
+#sidebar ul ul li {
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+
+#sidebar + div {
+    width: 50vw;
+    margin: 24px;
+}
+
+#sidebar + div,
+#sidebar {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#sidebar + div h4.chapter {
+    font-size: 24px;
+    margin-top: 6px;
+    margin-bottom: 6px;
 }

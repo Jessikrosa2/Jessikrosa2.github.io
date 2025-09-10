@@ -28,24 +28,32 @@ body {
     border-radius: 10px;
 }
 
-.completed {
+#morning .completed,
+#afternoon .completed,
+#evening .completed {
     text-decoration: line-through;
     color: #555;
 }
 
-.important {
+#morning .important,
+#afternoon .important,
+#evening .important {
     font-weight: bold;
     color: red;
 }
 
-.completed.important {
-    background-color: yellow;
+#morning .completed .important,
+#afternoon .completed .important,
+#evening .completed .important {
+    background-color: rgb(237, 224, 238);
     box-shadow: 0px 0px 8px greenyellow inset 0px 0px 8px green;
     padding: 5px;
     border-radius: 5px;
 }
 
-.button {
+#morning .button,
+#afternoon .button,
+#evening .button {
     display: inline-block;
     margin-left: 10px;
     margin-right: 10px;
@@ -55,14 +63,48 @@ body {
     background-color: lightgreen;
     text-decoration: none;
     cursor: pointer;
+    text-transform: capitalize;
 }
 
-.complete .button {
+#morning .complete .button,
+#afternoon .complete .button,
+#evening .complete .button {
     background-color: #ccc;
     color: #666;
     cursor: default;
 }
 
-.button + .button {
+#morning .button + .button,
+#afternoon .button + .button,
+#evening .button + .button {
     margin-left: 15px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+#morning .button :hover,
+#afternoon .button :hover,
+#evening .button :hover {
+    background-color: lightblue;
+    color: black;
+}
+
+#morning ul {
+    background-color: #30dcab;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#afternoon ul {
+    background-color: #f7c89c;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#evening ul {
+    background-color: #d6a4f4;
+    padding: 15x;
+    border-radius: 10px;
 }

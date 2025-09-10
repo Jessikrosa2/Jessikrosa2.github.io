@@ -42,9 +42,9 @@ body {
     color: red;
 }
 
-#morning .completed .important,
-#afternoon .completed .important,
-#evening .completed .important {
+#morning .completed.important,
+#afternoon .completed.important,
+#evening .completed.important {
     background-color: rgb(237, 224, 238);
     box-shadow: 0px 0px 8px greenyellow inset 0px 0px 8px green;
     padding: 5px;

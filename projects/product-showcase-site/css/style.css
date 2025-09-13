@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Orbitron|:wght@400..900&family=Tiny5&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: orbitron;
+    text-align: center;
+}
+
+h2 {
+    font-family: BEBAS NEUE;
+    font-size: 40PX;
+}
+
+.single-column {
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    background-color: rgb(140, 225, 225);
+}
+
+.fruity-pebbles-button a {
+    font-family: BEBAS NEUE, sans-serif;
+    text-align: center;
+    font-size: clamp(20px, 2.2vw, 24px);
+    margin-top: 10px;
+    color: #fff;
+    background-color: palevioletred;
+    border-radius: 999px;
+    text-decoration: none;
+    padding: 14px 28px;
+    display: inline-block;
+    margin-bottom: 2.5rem;
+}
+
+img {
+    width: clamp(320px, 42vw, 520px);
+    height: auto;
+    display: block;
+    margin: 0 auto 1.25rem;
+    border-radius: 18px;
+    padding: 10px;
+    box-shadow: 0 18px 40px;
+}
+
+.double-column {
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    background-color: palevioletred;
+}
+
+.holy-oreo-button a {
+    font-family: BEBAS NEUE, sans-serif;
+    text-align: center;
+    font-size: clamp(20px, 2.2vw, 24px);
+    margin-top: 10px;
+    color: #fff;
+    background-color: rgb(36, 158, 239);
+    border-radius: 999px;
+    text-decoration: none;
+    padding: 14px 28px;
+    display: inline-block;
+}
+
+.triple-column {
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    background-color: rgb(36, 158, 239);
+}
+
+.berry-blast-button a {
+    font-family: BEBAS NEUE, sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    font-size: clamp(20px, 2.2vw, 24px);
+    color: #fff;
+    background-color: rgb(235, 114, 176);
+    border-radius: 999px;
+    text-decoration: none;
+    padding: 14px 28px;
+    display: inline-block;
+}
+
+p {
+    font-size: clamp(1.05rem, 1.6vw, 1.25rem);
+    line-height: 1.8;
+    max-width: 60ch;
+    margin: 0 auto 1.25rem;
+    color: #1b1b1b;
+}

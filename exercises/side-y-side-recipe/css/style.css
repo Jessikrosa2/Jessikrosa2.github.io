@@ -18,7 +18,7 @@ body {
     border-top: 2px solid black;
     border-bottom: 2px solid black;
     align-items: center;
-    padding: 50px;
+    padding: 50px 0px;
     margin-bottom: 50px;
 }
 
@@ -33,6 +33,8 @@ body {
 
 #side-by-side-1 .image-container img {
     width: 100%;
+    height: 425px;
+    object-fit: cover;
 }
 
 #side-by-side-1 .image-container {
@@ -43,6 +45,21 @@ body {
     flex: 1;
 }
 
+.text-container .recipe-times {
+    display: flex;
+    gap: 25px;
+    margin: 8px 0px;
+}
+
+.button {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 18px;
+}
+
 #side-by-side-2 {
     display: flex;
     gap: 36px;
@@ -51,13 +68,25 @@ body {
 #side-by-side-2 .images {
     font-size: 20px;
     text-align: center;
+    flex: 1;
 }
 
 #side-by-side-2 .images img {
     width: 100%;
+    height: 400px;
+    object-fit: cover;
 }
 
 h2 {
     text-align: center;
     font-size: 36px;
+}
+
+.button:hover {
+    background-color: bisque;
+    color: black;
+}
+
+strong {
+    font-weight: bold;
 }

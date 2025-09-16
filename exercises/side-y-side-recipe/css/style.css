@@ -6,3 +6,58 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
+
+#single-column {
+    margin: 36px auto;
+    max-width: 800px;
+}
+
+#side-by-side-1 {
+    display: flex;
+    gap: 36px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    align-items: center;
+    padding: 50px;
+    margin-bottom: 50px;
+}
+
+#side-by-side-1 a {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 9px 18px;
+    margin-top: 16px;
+}
+
+#side-by-side-1 .image-container img {
+    width: 100%;
+}
+
+#side-by-side-1 .image-container {
+    flex: 1;
+}
+
+#side-by-side-1 .text-container {
+    flex: 1;
+}
+
+#side-by-side-2 {
+    display: flex;
+    gap: 36px;
+}
+
+#side-by-side-2 .images {
+    font-size: 20px;
+    text-align: center;
+}
+
+#side-by-side-2 .images img {
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+}

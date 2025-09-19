@@ -21,7 +21,7 @@ body {
 }
 
 #thumbnail-column .img-container {
-    height: 95px;
+    height: 120px;
     padding: 5px;
 }
 
@@ -31,7 +31,7 @@ body {
 
 #thumbnail-column .img-container,
 #featured-column {
-    background-color: rgb(236,236,236);
+    background-color: rgb(236, 236, 236);
     text-align: center;
     border-radius: 15px;
     border: 1px solid rgb(229, 229, 229,);
@@ -61,8 +61,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-top: 1px solid rgb(229,229,229);
-    border-bottom: 1px solid rgb(229,229,229,);
+    border-top: 1px solid rgb(229, 229, 229);
+    border-bottom: 1px solid rgb(229, 229, 229,);
     margin: 15px 0;
     padding: 15px 0;
 }
@@ -97,6 +97,16 @@ body {
 .seller-links a {
     color: black;
     font-size: 15px;
+}
+
+.seller-links .bullet {
+    color: #cacccc;
+    font-size: 12px;
+    margin: 2px 5px 0;
+}
+
+#chev {
+    color: black;
 }
 
 #price-info {
@@ -138,7 +148,8 @@ body {
 #price-info h2 {
     font-size: 25px;
     line-height: 1;
-    margin: 0; padding: 0;
+    margin: 0; 
+    padding: 0;
 }
 
 #price-info h4 {
@@ -147,6 +158,30 @@ body {
     margin: 5px 0 10px;
     padding: 0;
     font-size: 15px;
+}
+
+#price-info p {
+    display: inline-block;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+#condition-info {
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+    padding: 0;
+}
+
+#condition-info p {
+    font-size: 15px;
+}
+
+#condition-info #status {
+    font-weight: bold;
+    margin-left: 50px;
+    margin-right: 10px;
 }
 
 #price-info a {
@@ -162,8 +197,8 @@ body {
     display: block;
     text-align: center;
     color: #0c68f7;
-    padding: 15px;
-    margin: 8px 0;
+    padding: 16px 20px;
+    margin: 8px 0 0;
     border-radius: 50px;
     font-size: 17px;
 }
@@ -177,4 +212,44 @@ body {
 #buttons a.watch.btn span {
     font-weight: bold;
     margin-right: 5px;
+}
+
+#navbar {
+    margin: 25px auto;
+    width: 1100px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+#navbar h1 {
+    color: purple;
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+    letter-spacing: -10px;
+}
+
+#navbar #e {
+    color: #eb3325;
+}
+
+#navbar #b {
+    color: #006aec;
+}
+
+#navbar #a {
+    color: #fcbe06;
+}
+
+#navbar #y {
+    color: #90c922;
+}
+
+#navbar p {
+    font-size: 12px;
+    font-weight: 550;
+    margin: 15px 0 0;
+    padding: 0;
+    color: #6f7373;
 }

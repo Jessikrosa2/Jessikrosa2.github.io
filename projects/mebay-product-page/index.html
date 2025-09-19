@@ -7,6 +7,18 @@
         <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
+        <div id="navbar">
+            <h1>
+                m
+                <span id="e">e</span>
+                <span id="b">b</span>
+                <span id="a">a</span>
+                <span id="y">y</span>
+            </h1>
+
+            <p>Shop by<br>Category</p>
+        </div>
+                
         <!-- flexbox container -->
         <div id="layout">
 
@@ -32,8 +44,8 @@
             </div>
 
             <!-- flexbox item: featured image -->
-            <div id="featured-image-column">
-                <img class="featured" src="images/big lamp.webp" alt="biglamp">
+            <div id="featured-column">
+                <img src="images/big lamp.webp" alt="featured image-biglamp">
             </div>
 
             <!-- flexbox item: product info -->
@@ -43,28 +55,39 @@
                     Figurine - Beauty and the Beast
                 </h1>
 
-                <div id="seller-information">
+                <div id="seller-info">
                     <div id="seller-thumbnail">
                         <h3>MS</h3>
                     </div>
                     <div id="seller-links-container">
                         <div class="seller-links">
                             <a href="#" id="seller-name">
-                               MagicSeller
+                                MagicSeller
                             </a>
                             <p> (9427) </p>
+                        </div>
+
+                        <div class="seller-links">
+                            <a href="#">92.2% positive</a>
+                            <p class="bullet">.</p>
+                            <a href="#">Seller's other items</a>
+                            <p class="bullet">.</p>
+                            <a href="#">Contact seller</a>
+                        </div>
                     </div>
 
-                    <div class="seller-links">
-                        <a href="#">92.2% positive</a>
-                        <a href="#">Seller's other items</a>
-                        <a href="#">Contact seller</a>
-                    </div>
+                    <a href="#" id="chev">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </a>
                 </div>
 
-                <h2>US $94.90/ea</h2>
-
-                <h4>Condition: New</h4>
+                <div id="price-info">
+                    <h2>US $94.90/ea</h2>
+                </div>
+                <div id="condition-info">
+                    <p>Condition:</p>
+                    <p id="status">New</p>
+                </div>
 
                 <div id="buttons">
 

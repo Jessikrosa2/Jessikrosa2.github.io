@@ -11,12 +11,23 @@
         <div id="layout">
 
             <!-- flexbox item -->
-            <div id="thumbnail-column"> 
-    
-                <img src="images/side-lamp.webp" alt="sidelamp">
-                <img src="images/dark-lamp.webp" alt="darklamp">
-                <img src="images/side-dark.webp" alt="sidedark">
-                <img src="images/big lamp.webp"  alt="biglamp">
+            <div id="thumbnail-column">
+
+                <div class="img-container"> 
+                    <img src="images/side-lamp.webp" alt="sidelamp">
+                </div>
+
+                <div class="img-container">
+                    <img src="images/dark-lamp.webp" alt="darklamp">
+                </div>
+
+                <div class="img-container">
+                    <img src="images/side-dark.webp" alt="sidedark">
+                </div>
+
+                <div class="img-container">
+                    <img src="images/big lamp.webp"  alt="biglamp">
+                </div>
             
             </div>
 
@@ -33,10 +44,15 @@
                 </h1>
 
                 <div id="seller-information">
-                    <div id="seller">
-
-                        <a href="#">MagicSeller</a>
-                        <span> (9427) </span>
+                    <div id="seller-thumbnail">
+                        <h3>MS</h3>
+                    </div>
+                    <div id="seller-links-container">
+                        <div class="seller-links">
+                            <a href="#" id="seller-name">
+                               MagicSeller
+                            </a>
+                            <p> (9427) </p>
                     </div>
 
                     <div class="seller-links">
@@ -50,12 +66,12 @@
 
                 <h4>Condition: New</h4>
 
-                <div id="button">
+                <div id="buttons">
 
-                    <a href="#">Buy it Now</a>
-                    <a href="#">Add to cart</a>
-                    <a href="#">Make offer</a>
-                    <a href="#">Add to wishlist</a>
+                    <a href="#" class="prime btn">Buy it Now</a>
+                    <a href="#" class="btn">Add to cart</a>
+                    <a href="#" class="btn">Make offer</a>
+                    <a href="#" class="btn">Add to wishlist</a>
                 </div>
             </div>
         </div>           

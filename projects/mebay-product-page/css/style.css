@@ -9,119 +9,172 @@ body {
 
 #layout {
     display: flex;
-    max-width: 1000px;
-    margin: 50px auto;
+    max-width: 1100px;
+    margin: 25px auto;
+    padding-left: 5px;
+    gap: 8px;
+    align-items: flex-start;
 }
 
 #thumbnail-column {
-    width: 120px;
+    width: 105px;
+}
+
+#thumbnail-column .img-container {
+    height: 95px;
+    padding: 5px;
 }
 
 #thumbnail-column img {
-    width: 100%;
-    margin-bottom: 10px;
+    height: 100%;
 }
 
-#featured-image-column {
-    flex: 1;
-    margin-left: 20px;
+#thumbnail-column .img-container,
+#featured-column {
+    background-color: rgb(236,236,236);
+    text-align: center;
+    border-radius: 15px;
+    border: 1px solid rgb(229, 229, 229,);
+    margin: 8px 0;
 }
 
-#feature-image-column img {
-    max-width: 520px;
-    max-height: 520px;
-    width: 100%;
-    height: auto;
-    object-fit: contain;
+#featured-column {
+    width: 525px;
+    height: 500px;
 }
 
-#product-info-column {
-    width: 420px;
+#featured-column img {
+    height: 100%;
 }
 
-#product-info-column h1 {
-    margin: 0 0 12px 0;
-    font-size: 26px;
-    line-height: 1.25;
+#info-column {
+    width: 500px;
+    padding-left: 25px;
 }
 
-#product-info-column h2 {
-    margin: 6px 0 8px;
-    font-size: 24px;
-    font-weight: 700;
+#info-column h1 {
+    font-size: 23px;
+    margin: 8px 0;
 }
 
-#product-info-column h4 {
-    margin: 6px 0 10px;
-    font-size: 16px;
-    font-weight: 600;
-    color: #374151;
-}
-
-#seller-information {
-    border-top: 1px solid #e5e7eb;
-    border-bottom: 1px solid #e5e7eb;
-    margin: 16px 0px;
-    padding: 14px 0px;
-}
-
-#seller {
+#seller-info {
     display: flex;
-    gap: 8px;
-    align-items: baseline;
-    margin-bottom: 6px;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid rgb(229,229,229);
+    border-bottom: 1px solid rgb(229,229,229,);
+    margin: 15px 0;
+    padding: 15px 0;
 }
 
-#seller a {
-    font-weight: 700;
+#seller-thumbnail {
+    background-color: darkblue;
+    padding: 12px 17px;
+    border-radius: 50%;
+}
+
+#seller-thumbnail h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 23px;
+}
+
+.seller-links {
+    display: flex;
+    align-items: center;
+}
+
+.seller-links #seller-name {
     text-decoration: none;
-    color: #111827;
-}
-
-#seller a:hover {
-    text-decoration: underline;
-}
-
-#product-info-column #seller span {
-    color: #6b7280;
+    font-weight: bold;
+    color: black;
+    margin: 0;
+    padding: 0;
     font-size: 14px;
+    margin: 0 5px 5px 0;
 }
 
 .seller-links a {
-    color: #4b5563;
+    color: black;
+    font-size: 15px;
+}
+
+#price-info {
+    border-bottom: 1 px solid rgb(229, 229, 229,);
+    padding: 8px 0 20px;
+}
+
+#price-info h2 {
+    font-size: 25px;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+}
+
+#price-info h4 {
+    color: #6f7373;
+    font-weight: normal;
+    margin: 5px 0 10px;
+    padding: 0;
+    font-size: 15px;
+}
+
+.seller-links a {
+    color: black;
+    font-size: 15px;
+}
+
+.seller-links .bullet {
+    color: #cacccc;
+    font-size: 12px;
+    margin: 2px 5px 0;
+}
+
+#price-info {
+    border-bottom: 1px solid rgb(229, 229, 229,);
+    padding: 8px 0 20px;
+}
+
+#price-info h2 {
+    font-size: 25px;
+    line-height: 1;
+    margin: 0; padding: 0;
+}
+
+#price-info h4 {
+    color: #6f7373;
+    font-weight: normal;
+    margin: 5px 0 10px;
+    padding: 0;
+    font-size: 15px;
+}
+
+#price-info a {
+    color: black;
+    margin: 0 5px;
+    font-size: 15px;
+    padding: 0;
+}
+
+#buttons a.btn {
     text-decoration: none;
-    margin-right: 10px;
-    font-size: 14px;
-}
-
-.seller-links a:hover {
-    text-decoration: underline;
-}
-
-#button {
-    margin-top: 12px;
-}
-
-#button a {
+    border: 1px solid #0c68f7;
     display: block;
-    text-decoration: none;
-    color: #111827;
-    background: #fff;
-    border: 1px solid #e5e7eb;
-    border-radius: 24px;
-    padding: 16px 12px;
     text-align: center;
-    margin: 10px o;
-    font-weight: 700;
-    width: 100%;
+    color: #0c68f7;
+    padding: 15px;
+    margin: 8px 0;
+    border-radius: 50px;
+    font-size: 17px;
 }
 
-#button a:hover {
-    background: #f9fafb;
+#buttons a.prime.btn {
+    background-color: #0c68f7;
+    color: white;
+    font-weight: bold;
 }
 
-#button a:first-child {
-    background: #2563eb;
-    border-color: #2563eb;
-    color: #fff;
+#buttons a.watch.btn span {
+    font-weight: bold;
+    margin-right: 5px;
 }

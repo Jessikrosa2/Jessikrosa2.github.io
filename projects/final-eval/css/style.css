@@ -12,27 +12,37 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 12%;
+    padding: 24px;
 }
 
 .frame {
     max-width: 980px;
-    margin: 24px auto;
+    margin: 0px auto;
     padding: 28px 22px 34px;
-    border: 6px solid;
+    border: 6px solid #d9a86c;
     border-radius: 14px;
     background: rgba(0, 0, 0, .25);
     backdrop-filter: blur (2px);
     text-align: center;
 }
 
+.masthead {
+    background: rgba(0, 0, 0, .60);
+    padding: 16px;
+    border-radius: 10px;
+    margin-bottom: 14px;
+}
+
 .masthead .tiny-overline {
-    padding: 20px;
+    margin: 0 0 8px;
     text-decoration: none;
-    color: saddlebrown;
-    font-size: 36px;
+    color: #fff;
+    font-size: 16px;
     text-align: center;
     font-weight: bold;
+    letter-spacing: 1em;
+    display: inline-block;
+    white-space: nowrap;
 }
 
 .title {
@@ -41,6 +51,7 @@ body {
     margin: 0;
     text-transform: uppercase;
     text-shadow: 0 4px 12px;
+    color: #fff;
 }
 
 .kicker {
@@ -53,6 +64,7 @@ body {
     background: rgba(0, 0, 0, .55);
     border-radius: 6px;
     box-shadow: 0 2px 8px;
+    color: #fff;
 }
 
 .matchup {
@@ -64,7 +76,7 @@ body {
 }
 
 .team img {
-    width: 700px;
+    width: 300px;
     height: auto;
     filter: drop-shadow(0 6px 12px);
 }
@@ -72,7 +84,8 @@ body {
 .teamname {
     margin: .5rem 0 0;
     font-weight: 700;
-    font-size: 1.2rem;
+    font-size: 30px;
+    color: #fff;
 }
 
 .vs {
@@ -88,19 +101,19 @@ body {
     margin: 10px 0 4px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 30px;
-    font-weight: bold;
     line-height: 1.5;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: #fff;
+    color: whitesmoke;
 }
 
 .blurb p {
     margin: 6px auto 10px;
     max-width: 760px;
-    font-size: 16px;
+    font-size: 24px;
     line-height: 1.4;
     background: rgba(0, 0, 0, .45);
+    color: #fff;
     padding: 10px 14px;
     border-radius: 8px;
 }
@@ -137,4 +150,5 @@ body {
 .footerline p {
     margin: 14px 0 0;
     font-size: .95rem;
+    color: #fff;
 }

@@ -8,39 +8,40 @@ body {
     background-image: url(../images/super.jpg);
     background-size: cover;
     background-position: center;
-    height: 100vh;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
     padding: 24px;
 }
 
 .frame {
+    box-sizing: border-box;
     max-width: 980px;
-    margin: 0px auto;
-    padding: 28px 22px 34px;
+    margin: 28px auto 16px;
+    padding: 16px 18px 18px;
+    padding-top: 20px;
     border: 6px solid #d9a86c;
     border-radius: 14px;
     background: rgba(0, 0, 0, .25);
     backdrop-filter: blur (2px);
     text-align: center;
+    position: relative;
+    z-index: 1;
 }
 
 .masthead {
     background: rgba(0, 0, 0, .60);
     padding: 16px;
+    margin-top: 0;
     border-radius: 10px;
-    margin-bottom: 14px;
+    margin: 0 auto 14px;
+    max-width: 90%;
 }
 
 .masthead .tiny-overline {
     margin: 0 0 8px;
     text-decoration: none;
     color: #fff;
-    font-size: 16px;
+    font-size: 24px;
     text-align: center;
     font-weight: bold;
-    letter-spacing: 1em;
     display: inline-block;
     white-space: nowrap;
 }
@@ -59,7 +60,6 @@ body {
     margin: 10px 0 4px;
     padding: 6px 14px;
     font-weight: 700;
-    letter-spacing: 15rem;
     text-transform: uppercase;
     background: rgba(0, 0, 0, .55);
     border-radius: 6px;
@@ -76,7 +76,7 @@ body {
 }
 
 .team img {
-    width: 300px;
+    width: 100%;
     height: auto;
     filter: drop-shadow(0 6px 12px);
 }
@@ -91,6 +91,7 @@ body {
 .vs {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 80px;
+    color: #ffd65a;
     letter-spacing: normal;
     padding: 6px 10x;
     border: 3px solid white;
@@ -98,13 +99,17 @@ body {
 }
 
 .when h2 {
-    margin: 10px 0 4px;
+    margin: 10px 0;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 30px;
+    font-size: 32px;
+    font-weight: 700;
     line-height: 1.5;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     text-transform: uppercase;
-    color: whitesmoke;
+    color: #ffd65a;
+    border-bottom: 3px solid #ffd65a;
+    display: inline-block;
+    padding-bottom: 4px;
 }
 
 .blurb p {
@@ -149,6 +154,6 @@ body {
 
 .footerline p {
     margin: 14px 0 0;
-    font-size: .95rem;
+    font-size: 18px;
     color: #fff;
 }

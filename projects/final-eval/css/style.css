@@ -5,4 +5,136 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-image: url(../images/super.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 12%;
+}
+
+.frame {
+    max-width: 980px;
+    margin: 24px auto;
+    padding: 28px 22px 34px;
+    border: 6px solid;
+    border-radius: 14px;
+    background: rgba(0, 0, 0, .25);
+    backdrop-filter: blur (2px);
+    text-align: center;
+}
+
+.masthead .tiny-overline {
+    padding: 20px;
+    text-decoration: none;
+    color: saddlebrown;
+    font-size: 36px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    margin: 0;
+    text-transform: uppercase;
+    text-shadow: 0 4px 12px;
+}
+
+.kicker {
+    display: inline-block;
+    margin: 10px 0 4px;
+    padding: 6px 14px;
+    font-weight: 700;
+    letter-spacing: 15rem;
+    text-transform: uppercase;
+    background: rgba(0, 0, 0, .55);
+    border-radius: 6px;
+    box-shadow: 0 2px 8px;
+}
+
+.matchup {
+    margin: 24px 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.team img {
+    width: 700px;
+    height: auto;
+    filter: drop-shadow(0 6px 12px);
+}
+
+.teamname {
+    margin: .5rem 0 0;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.vs {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 80px;
+    letter-spacing: normal;
+    padding: 6px 10x;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+.when h2 {
+    margin: 10px 0 4px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.blurb p {
+    margin: 6px auto 10px;
+    max-width: 760px;
+    font-size: 16px;
+    line-height: 1.4;
+    background: rgba(0, 0, 0, .45);
+    padding: 10px 14px;
+    border-radius: 8px;
+}
+
+.cta {
+    margin: 16px 0 8px;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: bold;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    padding: 12px 22px;
+    border-radius: 50px;
+    margin: 8px 8px 0;
+    font-size: 30px;
+    background-color: saddlebrown;
+    color: #fff;
+}
+
+.btn .yes {
+    background: green;
+    color: #fff;
+}
+
+.btn .no {
+    background: red;
+    color: #fff;
+}
+
+.footerline p {
+    margin: 14px 0 0;
+    font-size: .95rem;
 }

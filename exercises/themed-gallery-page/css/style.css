@@ -5,20 +5,20 @@
 body {
     margin: 0px;
     font-family: sans-serif;
-    background-color: #f5f5f0;
+    background-color: #e8f5e9;
 }
 
 .hero {
-    background-image: url(../images/sun-2.webp);
-    background-position: center;
+    background-image: url(../images/hero-3.avif);
+    background-position: center center;
     background-size: cover;
     box-shadow: 0 6px 15px rgba(46, 125, 50, 0.6);
     border: 8px solid #333333;
-    height: 240px;
+    height: 80vh;
     display: flex;
     align-items: center;
-    justify-content: center;
-    padding: 16px 24px;
+    justify-content: flex-end;
+    padding: 10%;
 }
 
 .hero-content {
@@ -31,7 +31,7 @@ body {
 
 .hero h1 {
     font-size: 60px;
-    color: #f5f5f0;
+    color: #e8f5e9;
     text-shadow: 0 2px 8px rgba(0, 0, 0, 4);
     margin: 0;
 }

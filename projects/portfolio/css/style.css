@@ -7,7 +7,7 @@
 body {
     margin: 0px;
     font-family: sans-serif;
-    background: gray;
+    background: grey;
 }
 
 #nav {
@@ -25,8 +25,8 @@ body {
     color: lightgray;
     text-decoration: none;
     font-weight: 600;
-    font-family: 'lobster';
-    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
     padding: 8px 14px;
     border-radius: 6px;
     transition: background 0.3s ease, transform 0.2s ease;
@@ -49,7 +49,7 @@ body {
     content: "";
     position: absolute;
     inset: 0;
-    background: rgba(0, 0, 0, 0.45)
+    background: rgba(0, 0, 0, 0)
 }
 
 .hero-content {
@@ -65,7 +65,7 @@ body {
 .hero-content h1 {
     font-size: 50px;
     font-family: 'pacifico', cursive;
-    color: #e8f5e9;
+    color: darkred;
     text-shadow: 0 2px 8px rgba(0, 0, 0, 4);
     margin: 0;
 }
@@ -136,7 +136,7 @@ body {
 
 .card h3 {
     color: darkred;
-    font-family: 'lobster';
+    font-family: 'Courier New', Courier, monospace;
     margin-bottom: 1rem;
     font-size: 1.5rem;
 }
